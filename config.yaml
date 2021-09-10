@@ -1,1 +1,13 @@
-api_up: "https://aqs.epa.gov/data/api/metaData/isAvailable"
+api:
+  endpoint: "https://aqs.epa.gov/data/api"
+  up: "{endpoint}/metaData/isAvailable"
+  county_path: "{endpoint}/list/countiesByState?email=test@aqs.api&key=test&state={state_code}"
+  daily_data: "{endpoint}/dailyData/byCounty?email={email}&key={key}&param={param}&bdate={bdate}&edate={edate}&state={state_code}&county={cnty_code}"
+  annual_data: "{endpoint}/annualData/byCounty?email={email}&key={key}&param={param}&bdate={bdate}&edate={edate}&state={state_code}&county={cnty_code}"
+params:
+  email: holmesjoli@gmail.com
+  state_code: 53
+  bdate: 20100101
+  edate: 20210908
+  params: ["81102", "88101", "44201", "42101", "42401"]
+
