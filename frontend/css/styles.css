@@ -83,10 +83,17 @@ h2 {
 
 h2 > span {
     border-bottom:orange dashed 2px;
+    color: rgb(133, 121, 133);
 }
 
 p {
     margin: 8px;
+    box-shadow: 2px;
+}
+
+li:hover {
+    background-color: purple;
+    color: white;
 }
 
 table {
