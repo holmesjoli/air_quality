@@ -15,12 +15,12 @@ html, body {
 }
 
 #header {
-    flex: 1 0 25%;
-
+    flex: 1 0 12.5%;
+    text-align: center;
 }
 
 #body {
-    flex: 1 0 50%;
+    flex: 1 0 75%;
     display: flex;
     flex-direction: row;
 
@@ -32,8 +32,12 @@ html, body {
 
 #right {
     flex: 1 0 25%;
- }
+}
 
 #footer {
-    flex: 1 0 25%;
+    flex: 1 0 12.5%;
+}
+
+img {
+    width: 100%;
 }
