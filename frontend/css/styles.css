@@ -97,9 +97,10 @@ li:hover {
 }
 
 table {
-    border: 2px solid;
-    border-image: linear-gradient(180deg, rgb(0,143,104), rgb(250,224,66), orange, red) 1;
     padding: 5px;
+    background-color: #f7f7f7;
+    border: 1 px solid #f7f7f7;
+    border-radius: 5px;
 }
 
 .source {
