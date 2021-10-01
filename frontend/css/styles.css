@@ -20,12 +20,15 @@ html, body {
     text-align: center;
     background-image: linear-gradient(to left,grey, orange, red, grey);
     opacity: .65;
+    margin-bottom: 10px;
 }
 
 #body {
     flex: 1 0 75%;
     display: flex;
     flex-direction: column;
+    margin-left: 5%;
+    margin-right: 5%;
 }
 
 #r1 {
@@ -76,6 +79,10 @@ table {
     margin: 5px;
 }
 
+h1 {
+    font-size: 28pt;
+}
+
 h2 {
     margin: 10px;
     
@@ -88,12 +95,6 @@ h2 > span {
 
 p {
     margin: 8px;
-    box-shadow: 2px;
-}
-
-li:hover {
-    background-color: purple;
-    color: white;
 }
 
 table {
@@ -101,6 +102,10 @@ table {
     background-color: #f7f7f7;
     border: 1 px solid #f7f7f7;
     border-radius: 5px;
+}
+
+tr:hover {
+    background-color: lightgrey;
 }
 
 .source {
