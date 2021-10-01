@@ -6,89 +6,95 @@
         <link rel="stylesheet" href="./css/styles.css" type="text/css">
     </head>
     <body>
-        <h1>Air quality emissions in Kitsap County, WA</h1>
-        <div class="section">
-            <h2>Effects of Climate Change</h2>
-            <p>Different regions of the United States have already started to feel the varied impacts from climate change. Natural disastors in the form of hurricanes, tornados, flooding and fires besieged the United States in the summer of 2021. The Washington Post <a href = "https://www.washingtonpost.com/climate-environment/2021/09/04/climate-disaster-hurricane-ida/">reported</a> that nearly <b>1 in 3</b> Americans experienced a weather disastor over the course of the summer. Recent maps have shown prolonged drough in the west and highly abnormal rain in the east.</p>
-            <p>Smoke season, a term coined by West Coasters, describes a new reoccuring phenomenon. The smokiness which has now become an annual occurance, appearing sometime between July and October, only started a few years ago. However, the west's smoke season doesn't just affect areas surrounding the fires. Photographs from July, 2021 show images of New York City blanketed in smoke from the West Coast.
-            </p>
-            <img src = "https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iscQXnp4F5Tw/v1/-1x-1.jpg" alt = "New York city blanketed in smoke from West Coast wild fires">
-            <span>Image from <a href = "https://www.bloomberg.com/news/articles/2021-08-05/covid-19-and-wildfires-are-driving-a-big-increase-in-u-s-air-purifier-sales">Bloomberg</a></span>
-        </div>
-        <div class="section">
-            <h2>Changing environments</h2>
-            <p>This visualization below shows daily air quality measurements in Kitsap County, Washington over the last 40 years. Data were collected by the EPA and can be found <a href="https://aqs.epa.gov/aqsweb/airdata/download_files.html">here</a>.</p>
-            <img src="./images/viz.svg" alt= "Visualization showing the relationship declining air quality in Kitsap County from 1980 until 2021.">
-            <p>There are many different polluants which contribute to bad air quality:
-            <ul>
-                <li>Carbon monoxide (CO)
+        <div id="container">
+            <div id="header">
+                <h1>Air quality emissions in Kitsap County, WA</h1>
+            </div>
+            <div id="body">
+                <div class="section">
+                    <h2>Effects of Climate Change</h2>
+                    <p>Different regions of the United States have already started to feel the varied impacts from climate change. Natural disastors in the form of hurricanes, tornados, flooding and fires besieged the United States in the summer of 2021. The Washington Post <a href="https://www.washingtonpost.com/climate-environment/2021/09/04/climate-disaster-hurricane-ida/">reported</a> that nearly <b>1 in 3</b> Americans experienced a weather disastor over the course of the summer. Recent maps have shown prolonged drough in the west and highly abnormal rain in the east.</p>
+                    <p>Smoke season, a term coined by West Coasters, describes a new reoccuring phenomenon. The smokiness which has now become an annual occurance, appearing sometime between July and October, only started a few years ago. However, the west's smoke season doesn't just affect areas surrounding the fires. Photographs from July, 2021 show images of New York City blanketed in smoke from the West Coast.
+                    </p>
+                    <img src="https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iscQXnp4F5Tw/v1/-1x-1.jpg" alt="New York city blanketed in smoke from West Coast wild fires">
+                    <span>Image from <a href="https://www.bloomberg.com/news/articles/2021-08-05/covid-19-and-wildfires-are-driving-a-big-increase-in-u-s-air-purifier-sales">Bloomberg</a></span>
+                </div>
+                <div class="section">
+                    <h2>Changing environments</h2>
+                    <p>This visualization below shows daily air quality measurements in Kitsap County, Washington over the last 40 years. Data were collected by the EPA and can be found <a href="https://aqs.epa.gov/aqsweb/airdata/download_files.html">here</a>.</p>
+                    <img src="./images/viz.svg" alt="Visualization showing the relationship declining air quality in Kitsap County from 1980 until 2021.">
+                    <p>There are many different polluants which contribute to bad air quality:
                     <ul>
-                        <li>Major sources of CO: cars, trucks, and other machinery that burn fossil fuels</li>
-                    </ul>
-                </li>
-                <li>Sulfur dioxide (SO2)
-                    <ul>
-                        <li>Major sources of SO2: the burning of fossil fuels by power plants and other industrial facilities</li>
-                    </ul>
-                </li>
-                <li>Nitrogen dioxide (NO2)
-                    <ul>
-                        <li>
-                            Major sources of N02: cars, trucks, buses, and power plants
+                        <li>Carbon monoxide (CO)
+                            <ul>
+                                <li>Major sources of CO: cars, trucks, and other machinery that burn fossil fuels</li>
+                            </ul>
+                        </li>
+                        <li>Sulfur dioxide (SO2)
+                            <ul>
+                                <li>Major sources of SO2: the burning of fossil fuels by power plants and other industrial facilities</li>
+                            </ul>
+                        </li>
+                        <li>Nitrogen dioxide (NO2)
+                            <ul>
+                                <li>
+                                    Major sources of N02: cars, trucks, buses, and power plants
+                                </li>
+                            </ul>
+                        </li>
+                        <li>Particulate matter 2.5 (PM2.5)
+                            <ul>
+                                <li>Major sources of PM2.5: dust, soot, smoke, salt, and acid</li>
+                            </ul>
+                        </li>
+                        <li>Particulate matter 10 (PM10)
+                            <ul>
+                                <li>Major sources of PM10: construction sites and dust</li>
+                            </ul>
                         </li>
                     </ul>
-                </li>
-                <li>Particulate matter 2.5 (PM2.5)
-                    <ul>
-                        <li>Major sources of PM2.5: dust, soot, smoke, salt, and acid</li>
-                    </ul>
-                </li>
-                <li>Particulate matter 10 (PM10)
-                    <ul>
-                        <li>Major sources of PM10: construction sites and dust</li>
-                    </ul>
-                </li>
-            </ul>
-            <p>Measurements from the last 40 years indicate it is not uncommon for air quality to fluctuate over the course of a year. However, what is striking in the above visualization is the change in dominant pollutants. Prior to the year 2000, carbon monoxide and PM10 were frequently the dominant polluants. In the last 20 years, PM2.5 has become the dominant pollutant.</p>
-            <p>As PM2.5 has taken the center stage overall air quality has also declined. Higher values indicate worse air quality, for example 0 - 50 is considered good. Below is a table showing how the index translates to overall air quality.</p>
-            <table>
-                <thead>
-                    <tr>
-                        <th>Category</th>
-                        <th>Range</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>Good</td>
-                        <td>0-50</td>
-                    </tr>
-                    <tr>
-                        <td>Moderate</td>
-                        <td>51-100</td>
-                    </tr>
-                    <tr>
-                        <td>Unhealthy for sensitive groups</td>
-                        <td>101-150</td>
-                    </tr>
-                    <tr>
-                        <td>Unhealthy</td>
-                        <td>151-200</td>
-                    </tr>
-                    <tr>
-                        <td>Very unhealthy</td>
-                        <td>> 200</td>
-                    </tr>
-                </tbody>
-            </table>
-        </div>
-        <div class="section">
-            <h2>What is particulate matter?</h2>
-            <p>Particulate matter (PM) includes soot, smoke, dust, salt, acid, and metals. The numeric value after PM refers to the diameter of the average particulate. The average particulate in PM2.5 is less than 2.5 micrometers and the average particulate in PM10 is less than 10 micrometers. This has significant implications for human and animal health since smaller particles are able to penetrate more deeply into respiratory systems.</p>
-            <img src="https://www.lung.org/optimize/getmedia/293e6f91-cde9-49e1-943d-ce10254b46e3/particle-pollution.jpg?format=webp" alt = "Image comparing the size of particulate matter.">
-            <span>Image from <a href ="https://www.lung.org/clean-air/outdoors/what-makes-air-unhealthy/particle-pollution">Lung.org.</a></span>
-            <p>This <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7105434/#:~:text=According%20to%20existing%20studies%2C%20PM,mortality%20rates%20of%20these%20diseases">study</a> found that PM is associated with chronic obstructive pulmonary disease, bronchial asthma, and other respiratory diseases. Additionally, PM increases the mortality rate.</p>
-            <p>The story of smoke season isn't just about the destruction of the built and natural environment. It's also a story about our health.</p>
+                    <p>Measurements from the last 40 years indicate it is not uncommon for air quality to fluctuate over the course of a year. However, what is striking in the above visualization is the change in dominant pollutants. Prior to the year 2000, carbon monoxide and PM10 were frequently the dominant polluants. In the last 20 years, PM2.5 has become the dominant pollutant.</p>
+                    <p>As PM2.5 has taken the center stage overall air quality has also declined. Higher values indicate worse air quality, for example 0 - 50 is considered good. Below is a table showing how the index translates to overall air quality.</p>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Category</th>
+                                <th>Range</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Good</td>
+                                <td>0-50</td>
+                            </tr>
+                            <tr>
+                                <td>Moderate</td>
+                                <td>51-100</td>
+                            </tr>
+                            <tr>
+                                <td>Unhealthy for sensitive groups</td>
+                                <td>101-150</td>
+                            </tr>
+                            <tr>
+                                <td>Unhealthy</td>
+                                <td>151-200</td>
+                            </tr>
+                            <tr>
+                                <td>Very unhealthy</td>
+                                <td>> 200</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="section">
+                    <h2>What is particulate matter?</h2>
+                    <p>Particulate matter (PM) includes soot, smoke, dust, salt, acid, and metals. The numeric value after PM refers to the diameter of the average particulate. The average particulate in PM2.5 is less than 2.5 micrometers and the average particulate in PM10 is less than 10 micrometers. This has significant implications for human and animal health since smaller particles are able to penetrate more deeply into respiratory systems.</p>
+                    <img src="https://www.lung.org/optimize/getmedia/293e6f91-cde9-49e1-943d-ce10254b46e3/particle-pollution.jpg?format=webp" alt = "Image comparing the size of particulate matter.">
+                    <span>Image from <a href ="https://www.lung.org/clean-air/outdoors/what-makes-air-unhealthy/particle-pollution">Lung.org.</a></span>
+                    <p>This <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7105434/#:~:text=According%20to%20existing%20studies%2C%20PM,mortality%20rates%20of%20these%20diseases">study</a> found that PM is associated with chronic obstructive pulmonary disease, bronchial asthma, and other respiratory diseases. Additionally, PM increases the mortality rate.</p>
+                    <p>The story of smoke season isn't just about the destruction of the built and natural environment. It's also a story about our health.</p>
+                </div>
+            </div>
         </div>
     </body>
 </html>
