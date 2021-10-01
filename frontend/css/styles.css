@@ -1,7 +1,7 @@
 html, body {
     margin: 0px 10px 0 10px;
     padding: 0px;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 * {
@@ -67,6 +67,22 @@ html, body {
 
 img {
     width: 100%;
+}
+
+svg, img, .source {
+    margin: 5px;
+}
+
+h2 {
+    margin: 10px;
+}
+
+h2 > span {
+    border-bottom:orange dashed 2px;
+}
+
+p {
+    margin: 8px;
 }
 
 .source {
